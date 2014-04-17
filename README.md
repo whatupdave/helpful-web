@@ -18,6 +18,11 @@ Helpful is an open product that's being built by a fantastic group of people on 
 
 Once it's finished open up [http://localhost:5000](http://localhost:5000) in your web browser to check out Helpful.
 
+If for some reason vagrant up failed to start the web server try:
+
+    vagrant provision
+
+This will make sure the `bootstrap.sh` script is run.
 
 ### Using Helpful
 
